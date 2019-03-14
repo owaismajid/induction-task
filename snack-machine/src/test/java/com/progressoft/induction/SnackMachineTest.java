@@ -23,6 +23,7 @@ public class SnackMachineTest {
 
     @Test
     void new_snack_machine_should_have_zero_money() {
+
         assertThat(snackMachine.moneyInside()).isEqualTo(Money.ZERO);
     }
 
